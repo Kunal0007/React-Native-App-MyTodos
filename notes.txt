@@ -1,0 +1,12 @@
+<Text>Enter Name</Text>
+
+<TextInput
+    keyboardType= 'numeric'
+    style= {styles.input}
+    placeholder= 'e.g Kunal'
+    onChangeText= {(value) => setName(value)}
+/>
+
+<View style={styles.header}>
+    <Text>Hello, {name}!!!</Text>
+</View>
